@@ -20,7 +20,8 @@ DB_PORT = 5432
 pip install -r requirements.txt
 ```
 
-3- Run [`create_database.sql`] script to create the tables & database.(i used `Postgresql`, if you use another database, change the query file)
+3- Run [`create_database.sql`] script to create the tables & database.
+> i used `Postgresql`, if you use another database, change the query file
 
 4- Confidence is different in different cameras & distance between face & camera, Please adjust the [`confidence`] according to your own conditions!!!
 ```python
