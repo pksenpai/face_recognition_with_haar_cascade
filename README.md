@@ -15,24 +15,24 @@ DB_HOST = localhost
 DB_PORT = 5432
 ```
 
-2- Install the required libraries using the `requirements.txt` file:[^1]
+2- Install the required libraries using the `requirements.txt` file:[1]
 ```console
 pip install -r requirements.txt
 ```
 
-3- Run `create_database.sql` script to create the tables & database.(i used `Postgresql`, if you use another database, change the query file)[^2]
+3- Run `create_database.sql` script to create the tables & database.(i used `Postgresql`, if you use another database, change the query file)[2]
 
-4- Confidence is different in different cameras & distance between face & camera, Please adjust the `confidence` according to your own conditions!!![^3]
+4- Confidence is different in different cameras & distance between face & camera, Please adjust the `confidence` according to your own conditions!!![3]
 ```python
 # fetcher.py
 def similar_face_searcher(..., confidence: int = '>adjust here<'): ...
 ```
 
-5- Run `main.py`[^4]
+5- Run `main.py`[4]
 
 6- To `register`, a blue square must appear around your face, then look directly at the camera, & then press the `C button` to register!
 
-[^1]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/requirements.txt
-[^2]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/4780338ef35f0ee2907dff4cd6ef815309a0cf71/fetcher.py#L37
-[^3]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/create_database.sql
-[^4]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/main.py
+[1]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/requirements.txt
+[2]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/4780338ef35f0ee2907dff4cd6ef815309a0cf71/fetcher.py#L37
+[3]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/create_database.sql
+[4]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/main.py
