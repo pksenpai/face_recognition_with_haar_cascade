@@ -15,7 +15,7 @@ DB_HOST = localhost
 DB_PORT = 5432
 ```
 
-2- Install the required libraries using the `[requirements.txt]` file:
+2- Install the required libraries using the [`requirements.txt`] file:
 ```console
 pip install -r requirements.txt
 ```
