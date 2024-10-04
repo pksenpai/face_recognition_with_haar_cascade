@@ -1,9 +1,9 @@
 - Create a .env file and then copy the following text in it and enter your database information:
-DB_NAME = face_recognition
-DB_USER = postgres
-DB_PASS = your_password
-DB_HOST = localhost
-DB_PORT = 5432
+\n DB_NAME = face_recognition
+\n DB_USER = postgres
+\n DB_PASS = your_password
+\n DB_HOST = localhost
+\n DB_PORT = 5432
 
 - Install the required libraries using the requirements.txt file:
 pip install -r requirements.txt
