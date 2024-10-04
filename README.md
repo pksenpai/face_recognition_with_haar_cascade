@@ -1,7 +1,7 @@
 # Face Recognition with Classic ML Method (face haar cascade)
 * faces haar cascades as dataset & nearest neighbor algorithm for face detection.
-* this is an old and classic method, so it is normal that it is not as accurate as deep learning methods!
-* used imgbeddings for embedding features & a database for store data.
+* this is a classic & old method, so it's normal that it's not as accurate as deep learning methods!
+* used imgbeddings for embedding features & a database for store data.(ex. postgresql)
 * used euclidean formula for clac similarity and face recognition.
 -----
 ## Preparation
