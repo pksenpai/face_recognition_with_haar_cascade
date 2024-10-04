@@ -1,4 +1,11 @@
-- Create a `.env` file and then copy the following text in it and enter your database information:
+# Face Recognition with Classic ML Method (face haar cascade)
+* faces haar cascades as dataset & nearest neighbor algorithm for face detection.
+* this is an old and classic method, so it is normal that it is not as accurate as deep learning methods!
+* used imgbeddings for embedding features & a database for store data.
+* used euclidean formula for clac similarity and face recognition.
+-----
+## Preparation
+1- Create a `.env` file --> copy the following text & paste it then enter your database information:
 ```.env
 # .env
 DB_NAME = face_recognition
@@ -8,20 +15,24 @@ DB_HOST = localhost
 DB_PORT = 5432
 ```
 
-- Install the required libraries using the `requirements.txt` file:
-```bash
+2- Install the required libraries using the `requirements.txt` file:[^1]
+```console
 pip install -r requirements.txt
 ```
 
-- Run create_database.sql script to create the table and database.(i used Postgresql, if you use another database, change the query file)
+3- Run `create_database.sql` script to create the tables & database.(i used `Postgresql`, if you use another database, change the query file)[^2]
 
-- Confidence is different in different cameras & distance between face & camera, Please adjust the `confidence` according to your own conditions!!!
+4- Confidence is different in different cameras & distance between face & camera, Please adjust the `confidence` according to your own conditions!!![^3]
 ```python
 # fetcher.py
 def similar_face_searcher(..., confidence: int = '>adjust here<'): ...
 ```
 
-- Run `main.py`
+5- Run `main.py`[^4]
 
-- To `register`, a blue square must appear around your face, then look directly at the camera, & then press the `C button` to register!
+6- To `register`, a blue square must appear around your face, then look directly at the camera, & then press the `C button` to register!
 
+[^1]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/requirements.txt
+[^2]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/4780338ef35f0ee2907dff4cd6ef815309a0cf71/fetcher.py#L37
+[^3]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/create_database.sql
+[^4]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/main.py
