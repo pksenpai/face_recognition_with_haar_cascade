@@ -24,7 +24,7 @@ pip install -r requirements.txt
 > [!WARNING]
 > i used `Postgresql`, if you use another database, change the query file.
 
-4- Confidence is different in different cameras & distance between face & camera, Please adjust the [`confidence`] according to your own conditions!!!
+4- [!WARNING]: Confidence is different in different cameras & distance between face & camera, Please adjust the [`confidence`] according to your own conditions!!!
 ```python
 # fetcher.py
 def similar_face_searcher(..., confidence: int = '>adjust here<'): ...
