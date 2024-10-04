@@ -33,6 +33,6 @@ def similar_face_searcher(..., confidence: int = '>adjust here<'): ...
 6- To `register`, a blue square must appear around your face, then look directly at the camera, & then press the `C button` to register!
 
 [`requirements.txt`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/requirements.txt
-[`create_database.sql`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/4780338ef35f0ee2907dff4cd6ef815309a0cf71/fetcher.py#L37
-[`confidence`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/create_database.sql
+[`create_database.sql`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/create_database.sql 
+[`confidence`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/4780338ef35f0ee2907dff4cd6ef815309a0cf71/fetcher.py#L37
 [`main.py`]: https://github.com/pksenpai/face_recognition_with_haar_cascade/blob/main/main.py
