@@ -1,5 +1,6 @@
-- Create a .env file and then copy the following text in it and enter your database information:
-```
+- Create a ==.env== file and then copy the following text in it and enter your database information:
+```.env
+# .env
 DB_NAME = face_recognition
 DB_USER = postgres
 DB_PASS = your_password
@@ -7,8 +8,10 @@ DB_HOST = localhost
 DB_PORT = 5432
 ```
 
-- Install the required libraries using the requirements.txt file:
+- Install the required libraries using the ==requirements.txt== file:
+```shell
 pip install -r requirements.txt
+```
 
 - Run create_database.sql script to create the table and database.(i used Postgresql, if you use another database, change the query file)
 
