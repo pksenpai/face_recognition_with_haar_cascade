@@ -4,6 +4,8 @@
 * used imgbeddings for embedding features & a database for store data.(ex. postgresql)
 * used euclidean formula for clac similarity and face recognition.
 <img src="test.png">
+
+
 -----
 ## Preparation
 1- Create a `.env` file --> copy the following text & paste it then enter your database information:
