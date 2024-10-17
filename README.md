@@ -3,6 +3,7 @@
 * this is a classic & old method, so it's normal that it's not as accurate as deep learning methods!
 * used imgbeddings for embedding features & a database for store data.(ex. postgresql)
 * used euclidean formula for clac similarity and face recognition.
+<img src="..." width="500" height="600">
 -----
 ## Preparation
 1- Create a `.env` file --> copy the following text & paste it then enter your database information:
